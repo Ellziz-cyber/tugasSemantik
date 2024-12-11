@@ -2,13 +2,13 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Paturohman Abdul Aziz",
-  "additionalType": "https://schema.org/Mahasiswa",
+  "additionalType": "https://schema.org/UniversityStudent",
   "identifier": {
     "@type": "PropertyValue",
     "name": "NIM",
     "value": "23050768"
   },
-  "Alamat": {
+  "address": {
     "@type": "PostalAddress",
     "addressLocality": "Kabupaten Tangerang",
     "addressRegion": "Provinsi Banten",
@@ -16,10 +16,10 @@
     "addressCountry": "ID"
   },
   "telephone": "+62-8963-0534-931",
-  "Kampus": {
+  "affiliation": {
     "@type": "EducationalOrganization",
     "name": "Universitas Yatsi Madani",
-    "Alamat Kampus": {
+    "address": {
       "@type": "PostalAddress",
       "streetAddress": "Karawaci",
       "addressLocality": "Kota Tangerang",
@@ -30,18 +30,8 @@
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "021-557-265-58",
-      "contactType": "Student Services",
+      "contactType": "University Student Services",
       "availableLanguage": "Bahasa Indonesia"
     }
-  },
-  "Kelas Mahasiswa": {
-    "@type": "EducationalOrganization",
-    "name": "AM2305E",
-    "description": "Kelas E Malam"
-  },
-  "Mata Kuliah": {
-    "@type": "EducationalOccupationalProgram",
-    "name": "Jaringan Semantik",
-    "description": "Project Json LD"
   }
 }
